@@ -5,7 +5,7 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style x:Key="lblDesign" TargetType="Label">
-            <Setter Property="FontFamily" Value="fonts/BAHNSCHRIFT.TTF #font1"/>
+            <Setter Property="FontFamily" Value="Fonts/BAHNSCHRIFT.TTF #font1"/>
         </Style>
     </Application.Resources>
 </Application>

@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="Compatible Devices - OnePlus 6" Height="286" Width="308" Background="#FF1D1D1D" ResizeMode="CanMinimize">
+        Title="Compatible Devices - OnePlus 6" Height="286" Width="308" Background="#FFE4E4E4" ResizeMode="CanMinimize">
     <Grid>
-        <Label Content="OnePlus 6" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="50" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Height="120" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="CPU: Qualcomm Snapdragon 845"/><LineBreak/><Run Text="RAM: 6GB / 8GB LPDDR4X"/><LineBreak/><Run Text="Storage: 64GB / 128GB / 256GB"/><LineBreak/><Run Text="Display: 6.28&quot; Optic AMOLED (2280x1080)"/><LineBreak/><Run Text="Cameras: 16MP + 20MP (Back) / 16MP (Front)"/><LineBreak/><Run Text="Android Versions: 8.1 / 9 / 10 / 11 (planned)"/><LineBreak/><Run Text="Kernel Version: 4.9"/><LineBreak/><Run Text="Release Date: May 22 2018"/></TextBlock>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,185,0,0" Stroke="Red" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Back" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="OnePlus 6" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="50" Foreground="Black" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Height="120" Foreground="Black" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="CPU: Qualcomm Snapdragon 845"/><LineBreak/><Run Text="RAM: 6GB / 8GB LPDDR4X"/><LineBreak/><Run Text="Storage: 64GB / 128GB / 256GB"/><LineBreak/><Run Text="Display: 6.28&quot; Optic AMOLED (2280x1080)"/><LineBreak/><Run Text="Cameras: 16MP + 20MP (Back) / 16MP (Front)"/><LineBreak/><Run Text="Android Versions: 8.1 / 9 / 10 / 11 (planned)"/><LineBreak/><Run Text="Kernel Version: 4.9"/><LineBreak/><Run Text="Release Date: May 22 2018"/></TextBlock>
+        <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Left" Height="50" Margin="10,185,0,0" Stroke="#FF0080FF" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Back" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,185,0,0" Width="270" Opacity="0" Click="Button_Click" Height="50" VerticalAlignment="Top"/>
 
     </Grid>

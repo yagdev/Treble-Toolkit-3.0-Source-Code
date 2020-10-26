@@ -8,7 +8,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Treble Toolkit")]
-[assembly: AssemblyDescription("Executable for Treble Toolkit (Dark)")]
+[assembly: AssemblyDescription("Executable for Treble Toolkit (Light)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("YAG-dev")]
 [assembly: AssemblyProduct("Treble Toolkit (Windows)")]
