@@ -5,7 +5,7 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <Style x:Key="lblDesign" TargetType="Label">
-            <Setter Property="FontFamily" Value="fonts/BAHNSCHRIFT.TTF #font1"/>
+            <Setter Property="FontFamily" Value="fonts//Treble Toolkit;component/Fonts/#Bahnschrift.TTF #/Treble Toolkit;component/Fonts/#Bahnschrift"/>
         </Style>
     </Application.Resources>
 </Application>
