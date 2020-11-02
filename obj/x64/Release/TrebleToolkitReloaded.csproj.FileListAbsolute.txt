@@ -46,3 +46,51 @@ C:\Users\dinis\source\repos\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\
 C:\Users\dinis\source\repos\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TrebleToolkit.Properties.Resources.resources
 C:\Users\dinis\source\repos\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit.exe
 C:\Users\dinis\source\repos\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit.pdb
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\bin\x64\Release\Treble Toolkit.exe.config
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\bin\x64\Release\Treble Toolkit.exe
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\bin\x64\Release\Treble Toolkit.pdb
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TrebleToolkitReloaded.csprojAssemblyReference.cache
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\A-B.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\A.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\About.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Alcatel1.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\BootloaderUnlocked.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\BootTWRP.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\CompatibleDevices.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashFinished.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashGSI.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashPermissiver.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashTWRP.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\MainWindow.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\OnePlus6.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TWRP.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\UnlockBootloader.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Xperia5.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\XZ2.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\App.g.cs
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit_MarkupCompile.cache
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit_MarkupCompile.lref
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\App.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\A-B.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\A.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\About.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Alcatel1.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\BootloaderUnlocked.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\BootTWRP.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\CompatibleDevices.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashFinished.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashGSI.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashPermissiver.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\FlashTWRP.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\MainWindow.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\OnePlus6.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TWRP.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\UnlockBootloader.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Xperia5.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\XZ2.baml
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit.g.resources
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TrebleToolkit.Properties.Resources.resources
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TrebleToolkitReloaded.csproj.GenerateResource.cache
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\TrebleToolkitReloaded.csproj.CoreCompileInputs.cache
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit.exe
+D:\Treble Toolkit\TrebleToolkitReloaded\TrebleToolkitReloaded\obj\x64\Release\Treble Toolkit.pdb

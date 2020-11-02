@@ -5,16 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="Bootloader Unlocking Finished" Height="237" Width="308" Background="#FF1D1D1D" ResizeMode="CanMinimize">
+        Title="Bootloader Unlocking Finished" Height="240" Width="308" Background="#FF1D1D1D" MinWidth="308" MinHeight="240">
     <Grid>
-        <Label Content="Process Finished" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="270" Height="50" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" Height="20" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Your bootloader has been s"/><Run Text="ucce"/><Run Text="ss"/><Run Text="fully "/><Run Text="unlocked."/></TextBlock>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,81,0,0" Stroke="Red" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Main Menu" HorizontalAlignment="Left" Margin="10,81,0,0" Width="270" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,136,0,0" Stroke="Red" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Close Program" HorizontalAlignment="Left" Margin="10,136,0,0" Width="270" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="270" Height="50" Opacity="0" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,136,0,0" Width="270" Opacity="0" Click="Button_Click_1" Height="50" VerticalAlignment="Top"/>
-
+        <Label Content="Process Finished" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Your bootloader has been s"/><Run Text="ucce"/><Run Text="ss"/><Run Text="fully "/><Run Text="unlocked."/></TextBlock>
+        <Rectangle Fill="#FF343434" Height="50" Margin="10,0,9,65" Stroke="Red" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Main Menu" Margin="10,0,10,65" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Rectangle Fill="#FF343434" Height="50" Margin="10,0,9,10" Stroke="Red" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Close Program" Margin="10,0,10,10" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Button Content="Button" Margin="10,0,10,65" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
+        <Button Content="Button" Margin="10,0,10,10" Opacity="0" Click="Button_Click_1" Height="50" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>

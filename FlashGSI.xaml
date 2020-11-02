@@ -5,19 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="Flash GSI" Height="299.5" Width="308" Background="#FF1D1D1D" ResizeMode="CanMinimize">
+        Title="Flash GSI" Height="300" Width="308" Background="#FF1D1D1D" MinWidth="308" MinHeight="300">
     <Grid>
-        <Label Content="Flash GSI" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="50" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label Content="Please select your phone's partition style" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="271" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"/>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,89,0,0" Stroke="Red" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="A" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,144,0,0" Stroke="Red" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="A/B" HorizontalAlignment="Left" Margin="10,144,0,0" Width="270" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,199,0,0" Stroke="Red" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Back" HorizontalAlignment="Left" Margin="10,199,0,0" Width="270" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top" Width="270" Height="50" Opacity="0" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Width="271" Height="50" Opacity="0" Click="Button_Click_1"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="271" Height="50" Opacity="0" Click="Button_Click_2"/>
-
+        <Label Content="Flash GSI" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Please select your phone's partition style" Margin="10,60,9,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"/>
+        <Rectangle Fill="#FF343434" Height="50" Margin="10,0,9,119" Stroke="Red" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="A" Margin="10,0,10,119" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Rectangle Fill="#FF343434" Height="50" Margin="10,0,9,64" Stroke="Red" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="A/B" Margin="10,0,10,64" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Rectangle Fill="#FF343434" Height="50" Margin="10,0,9,9" Stroke="Red" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Back" Margin="10,0,10,9" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Button Content="Button" Margin="10,0,10,9" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
+        <Button Content="Button" Margin="10,0,9,119" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_1"/>
+        <Button Content="Button" Margin="10,0,9,64" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_2"/>
     </Grid>
 </Window>

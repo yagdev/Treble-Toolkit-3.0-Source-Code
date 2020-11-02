@@ -5,13 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="About" Height="377" Width="308" Background="#FF1D1D1D" ResizeMode="CanMinimize">
+        Title="About" Height="370" Width="308" Background="#FF1D1D1D" MinWidth="308" MinHeight="370">
     <Grid>
-        <Label Content="Treble Toolkit" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White"/>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,277,0,0" Stroke="Red" VerticalAlignment="Top" Width="270" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Close" HorizontalAlignment="Left" Margin="10,277,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,277,0,0" VerticalAlignment="Top" Width="270" Height="50" Opacity="0" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Width="270" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Version: 3.0"/><LineBreak/><Run/><LineBreak/><Run Text=".NET Framework Version: 4.7.2"/><LineBreak/><Run/><LineBreak/><Run Text="Minimum Windows Version: 7"/><LineBreak/><Run/><LineBreak/><Run Text="Changelog: Rewritten program,"/><Run Text=" new design, updated Platform Tools, discontinued A/B TWRP flashing and ADB driver installed"/><Run Text=", discontinued Treble Toolkit Lite"/><Run Text=" (for now)"/></TextBlock>
-
+        <Label Content="Treble Toolkit" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White"/>
+        <Rectangle Fill="#FF343434" Height="50" Margin="10,0,12,11" Stroke="Red" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Close" Margin="10,0,12,11" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Button" Margin="10,0,12,11" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
+        <TextBlock Margin="10,65,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Foreground="White" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Version: 3."/><Run Text="1"/><LineBreak/><Run/><LineBreak/><Run Text=".NET Framework Version: 4.7.2"/><LineBreak/><Run/><LineBreak/><Run Text="Minimum Windows Version: 7"/><LineBreak/><Run/><LineBreak/><Run Text="Changelog: "/><Run FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" Text="Re-sizeable windows"/></TextBlock>
     </Grid>
 </Window>
