@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Flash GSI" Height="300" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="300">
     <Grid>
-        <Label Content="Flash GSI" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label Content="Please select your phone's partition style" Margin="10,60,9,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"/>
+        <Label Content="Flash GSI" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="Bahnschrift" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Please select your phone's partition style" Margin="10,60,9,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FF000000" FontFamily="Bahnschrift"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,119" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="A" Margin="10,0,10,119" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="A" Margin="10,0,10,119" VerticalAlignment="Bottom" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,64" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="A/B" Margin="10,0,10,64" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Label Content="A/B" Margin="10,0,10,64" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Back" Margin="10,0,10,9" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Label Content="BACK" Margin="10,0,10,9" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
         <Button Content="Button" Margin="10,0,10,9" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
         <Button Content="Button" Margin="10,0,9,119" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_1"/>
         <Button Content="Button" Margin="10,0,9,64" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_2"/>

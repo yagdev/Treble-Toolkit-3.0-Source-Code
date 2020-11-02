@@ -7,19 +7,19 @@
         mc:Ignorable="d"
         Title="Treble Toolkit" Height="500" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="500">
     <Grid>
-        <Label Content="Treble Toolkit" Margin="10,10,10,0" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="45"/>
+        <Label Content="Treble Toolkit" Margin="10,10,10,0" FontFamily="Bahnschrift" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="45"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,59,10,340" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Flash GSI" Margin="10,59,10,340" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FLASH GSI" Margin="10,59,10,340" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,115,10,284" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Flash/Boot TWRP" Margin="10,115,10,284" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FLASH/BOOT TWRP" Margin="10,115,10,284" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,170,10,229" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Unlock Bootloader" Margin="10,170,10,229" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="UNLOCK BOOTLOADER" Margin="10,170,10,229" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,225,10,174" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Flash Permissiver" Margin="10,225,10,174" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FLASH PERMISSIVER" Margin="10,225,10,174" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,280,10,119" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Compatible Devices" Margin="10,280,10,119" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="COMPATIBLE DEVICES" Margin="10,280,10,119" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,335,9,64" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="FreeCMD" Margin="11,335,9,64" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FREECMD" Margin="11,335,9,64" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Center" Height="50" Margin="10,0,230,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" Width="50" RadiusY="3.5" RadiusX="3.5"/>
         <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Center" Height="50" Margin="65,0,175,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" Width="50" RadiusY="3.5" RadiusX="3.5"/>
         <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Center" Height="50" Margin="120,0,120,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" Width="50" RadiusY="3.5" RadiusX="3.5"/>
@@ -38,20 +38,19 @@
         </Border>
         <Button Content="Button" HorizontalAlignment="Center" Height="50" Margin="120,0,120,9" VerticalAlignment="Bottom" Width="50" Opacity="0" Click="Button_Click_2"/>
         <Border BorderThickness="1" HorizontalAlignment="Center" Height="50" Margin="175,0,65,9" VerticalAlignment="Bottom" Width="50">
-            <Label Content="XDA" HorizontalAlignment="Center" Height="30" VerticalAlignment="Bottom" Width="50" Margin="-1,0,-1,9" Foreground="#FF000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"/>
+            <Label Content="XDA" HorizontalAlignment="Center" Height="30" VerticalAlignment="Bottom" Width="50" Margin="-1,0,-1,9" Foreground="#FF000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Bahnschrift"/>
         </Border>
         <Border BorderThickness="1" HorizontalAlignment="Center" Height="50" Margin="231,0,9,9" VerticalAlignment="Bottom" Width="50">
             <Image Margin="11" Source="closeicon.png" Stretch="Fill"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Center" Margin="231,0,9,9" VerticalAlignment="Bottom" Width="50" Height="50" Opacity="0" Click="Button_Click_3"/>
         <Button Content="Button" HorizontalAlignment="Center" Margin="175,0,65,9" VerticalAlignment="Bottom" Width="50" Height="50" Opacity="0" Click="Button_Click_4"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="50" Margin="10,60,0,339" VerticalAlignment="Center" Width="270"/>
-        <Button Content="Button" Margin="11,60,9,339" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_5"/>
-        <Button Content="Button" Margin="11,115,9,284" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_6"/>
-        <Button Content="Button" Margin="11,170,9,229" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_7"/>
-        <Button Content="Button" Margin="10,225,10,174" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_8"/>
-        <Button Content="Button" Margin="10,280,10,119" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_9"/>
-        <Button Content="Button" Margin="11,335,9,64" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_10"/>
+        <Button Content="Button" Margin="10,69,10,350" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_5"/>
+        <Button Content="Button" Margin="10,125,10,294" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_6"/>
+        <Button Content="Button" Margin="10,180,10,239" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_7"/>
+        <Button Content="Button" Margin="10,235,10,184" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_8"/>
+        <Button Content="Button" Margin="10,291,10,128" VerticalAlignment="Center" Height="50" Opacity="0" Click="Button_Click_9"/>
+        <Button Content="Button" Margin="10,346,10,74" VerticalAlignment="Center" Height="49" Opacity="0" Click="Button_Click_10"/>
 
     </Grid>
 </Window>

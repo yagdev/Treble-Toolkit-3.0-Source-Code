@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="Bootloader Unlocking Finished" Height="240" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="240">
     <Grid>
-        <Label Content="Process Finished" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Your bootloader has been s"/><Run Text="ucce"/><Run Text="ss"/><Run Text="fully "/><Run Text="unlocked."/></TextBlock>
+        <Label Content="Process Finished" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="Bahnschrift" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Foreground="#FF000000" FontFamily="Bahnschrift"><Run Text="Your bootloader has been s"/><Run Text="ucce"/><Run Text="ss"/><Run Text="fully "/><Run Text="unlocked."/></TextBlock>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,65" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Main Menu" Margin="10,0,10,65" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Label Content="MAIN MENU" Margin="10,0,10,65" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,10" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Close Program" Margin="10,0,10,10" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Label Content="CLOSE PROGRAM" Margin="10,0,10,10" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
         <Button Content="Button" Margin="10,0,10,65" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
         <Button Content="Button" Margin="10,0,10,10" Opacity="0" Click="Button_Click_1" Height="50" VerticalAlignment="Bottom"/>
     </Grid>

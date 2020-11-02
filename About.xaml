@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="About" Height="370" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="370">
     <Grid>
-        <Label Content="Treble Toolkit" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FF000000"/>
+        <Label Content="Treble Toolkit" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" FontFamily="Bahnschrift" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FF000000"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,12,11" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Close" Margin="10,0,12,11" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Content="Button" Margin="10,0,12,11" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
-        <TextBlock Margin="10,65,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Version: 3."/><Run Text="1"/><LineBreak/><Run/><LineBreak/><Run Text=".NET Framework Version: 4.7.2"/><LineBreak/><Run/><LineBreak/><Run Text="Minimum Windows Version: 7"/><LineBreak/><Run/><LineBreak/><Run Text="Changelog: "/><Run Text="Re-sizeable windows"/></TextBlock>
+        <Label Content="CLOSE" Margin="10,0,12,11" VerticalAlignment="Bottom" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+        <Button Content="Button" Margin="10,0,12,11" VerticalAlignment="Bottom" Height="49" Opacity="0" Click="Button_Click"/>
+        <TextBlock Margin="10,65,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Foreground="#FF000000" FontFamily="Bahnschrift"><Run Text="Version: 3."/><Run Text="2"/><LineBreak/><Run/><LineBreak/><Run Text=".NET Framework Version: 4.7.2"/><LineBreak/><Run/><LineBreak/><Run Text="Minimum Windows Version: 7"/><LineBreak/><Run/><LineBreak/><Run Text="Changelog:"/><Run Text=" Changed text appearence"/></TextBlock>
     </Grid>
 </Window>
