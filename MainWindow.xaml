@@ -7,19 +7,19 @@
         mc:Ignorable="d"
         Title="Treble Toolkit" Height="500" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="500">
     <Grid>
-        <Label Content="Treble Toolkit" Margin="10,10,10,0" FontFamily="Bahnschrift" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="45"/>
+        <Label Content="Treble Toolkit" Margin="10,10,10,0" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="45"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,59,10,340" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="FLASH GSI" Margin="10,59,10,340" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FLASH GSI" Margin="10,59,10,340" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,115,10,284" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="FLASH/BOOT TWRP" Margin="10,115,10,284" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FLASH/BOOT TWRP" Margin="10,115,10,284" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,170,10,229" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="UNLOCK BOOTLOADER" Margin="10,170,10,229" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="UNLOCK BOOTLOADER" Margin="10,170,10,229" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,225,10,174" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="FLASH PERMISSIVER" Margin="10,225,10,174" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FLASH PERMISSIVER" Margin="10,225,10,174" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="11,280,10,119" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="COMPATIBLE DEVICES" Margin="10,280,10,119" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="COMPATIBLE DEVICES" Margin="10,280,10,119" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,335,9,64" Stroke="#FF0080FF" VerticalAlignment="Center" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="FREECMD" Margin="11,335,9,64" VerticalAlignment="Center" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="FREECMD" Margin="11,335,9,64" VerticalAlignment="Center" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Center" Height="50" Margin="10,0,230,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" Width="50" RadiusY="3.5" RadiusX="3.5"/>
         <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Center" Height="50" Margin="65,0,175,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" Width="50" RadiusY="3.5" RadiusX="3.5"/>
         <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Center" Height="50" Margin="120,0,120,9" Stroke="#FF0080FF" VerticalAlignment="Bottom" Width="50" RadiusY="3.5" RadiusX="3.5"/>
@@ -38,7 +38,7 @@
         </Border>
         <Button Content="Button" HorizontalAlignment="Center" Height="50" Margin="120,0,120,9" VerticalAlignment="Bottom" Width="50" Opacity="0" Click="Button_Click_2"/>
         <Border BorderThickness="1" HorizontalAlignment="Center" Height="50" Margin="175,0,65,9" VerticalAlignment="Bottom" Width="50">
-            <Label Content="XDA" HorizontalAlignment="Center" Height="30" VerticalAlignment="Bottom" Width="50" Margin="-1,0,-1,9" Foreground="#FF000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Bahnschrift"/>
+            <Label Content="XDA" HorizontalAlignment="Center" Height="30" VerticalAlignment="Bottom" Width="50" Margin="-1,0,-1,9" Foreground="#FF000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift"/>
         </Border>
         <Border BorderThickness="1" HorizontalAlignment="Center" Height="50" Margin="231,0,9,9" VerticalAlignment="Bottom" Width="50">
             <Image Margin="11" Source="closeicon.png" Stretch="Fill"/>

@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="Booting TWRP" Height="250" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="250">
     <Grid>
-        <Label Content="Boot TWRP" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" FontFamily="Bahnschrift" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Foreground="#FF000000" FontFamily="Bahnschrift"><Run Text="Make sure you followed the steps on the previous window, then press "/><Run Text="Boot"/></TextBlock>
+        <Label Content="Boot TWRP" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift"><Run Text="Make sure you followed the steps on the previous window, then press "/><Run Text="Boot"/></TextBlock>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="9,0,10,65" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="BOOT" Margin="9,0,11,65" VerticalAlignment="Bottom" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="BOOT" Margin="9,0,11,65" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Content="Button" Margin="9,0,11,65" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_5"/>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="9,0,10,10" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="BACK" Margin="9,0,11,10" VerticalAlignment="Bottom" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="BACK" Margin="9,0,11,10" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Content="Button" Margin="10,0,10,10" Opacity="0" Click="Button_Click" Height="50" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>

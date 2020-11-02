@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Compatible Devices - OnePlus 6" Height="280" Width="308" Background="#FFE4E4E4" ResizeMode="CanMinimize" MinWidth="308" MinHeight="280">
     <Grid>
-        <Label Content="OnePlus 6" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="Bahnschrift" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock Margin="10,60,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="120" Foreground="#FF000000" FontFamily="Bahnschrift"><Run Text="CPU: Qualcomm Snapdragon 845"/><LineBreak/><Run Text="RAM: 6GB / 8GB LPDDR4X"/><LineBreak/><Run Text="Storage: 64GB / 128GB / 256GB"/><LineBreak/><Run Text="Display: 6.28&quot; Optic AMOLED (2280x1080)"/><LineBreak/><Run Text="Cameras: 16MP + 20MP (Back) / 16MP (Front)"/><LineBreak/><Run Text="Android Versions: 8.1 / 9 / 10 / 11 (planned)"/><LineBreak/><Run Text="Kernel Version: 4.9"/><LineBreak/><Run Text="Release Date: May 22 2018"/></TextBlock>
+        <Label Content="OnePlus 6" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="120" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift"><Run Text="CPU: Qualcomm Snapdragon 845"/><LineBreak/><Run Text="RAM: 6GB / 8GB LPDDR4X"/><LineBreak/><Run Text="Storage: 64GB / 128GB / 256GB"/><LineBreak/><Run Text="Display: 6.28&quot; Optic AMOLED (2280x1080)"/><LineBreak/><Run Text="Cameras: 16MP + 20MP (Back) / 16MP (Front)"/><LineBreak/><Run Text="Android Versions: 8.1 / 9 / 10 / 11 (planned)"/><LineBreak/><Run Text="Kernel Version: 4.9"/><LineBreak/><Run Text="Release Date: May 22 2018"/></TextBlock>
         <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,10,12" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="BACK" Margin="10,0,10,12" VerticalAlignment="Bottom" Height="50" FontFamily="Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="BACK" Margin="10,0,10,12" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Content="Button" Margin="10,0,10,12" Opacity="0" Click="Button_Click" Height="50" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
