@@ -5,16 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="Flash GSI - A/B" Height="271" Width="308" Background="#FFE4E4E4" ResizeMode="CanMinimize">
+        Title="Flash GSI - A/B" Height="270" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="270">
     <Grid>
-        <Label Content="A/B" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="50" Foreground="Black" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="270" Foreground="Black" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Please "/><Run Text="place your ROM in Place_File"/><Run Text="s"/><Run Text="_Here/G"/><Run Text="S"/><Run Text="I/"/><Run Text=" "/><Run Text="and "/><Run Text="reboot to the bootloader (must be unlocked) and click &quot;Next&quot;"/></TextBlock>
-        <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Left" Height="50" Margin="10,115,0,0" Stroke="#FF0080FF" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Next" HorizontalAlignment="Left" Margin="10,115,0,0" Width="270" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Left" Height="50" Margin="10,170,0,0" Stroke="#FF0080FF" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Back" HorizontalAlignment="Left" Margin="10,170,0,0" Width="270" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="271" Height="50" Opacity="0" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="270" Height="50" Opacity="0" Click="Button_Click_1"/>
-
+        <Label Content="A/B" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Please "/><Run Text="place your ROM in Place_File"/><Run Text="s"/><Run Text="_Here/G"/><Run Text="S"/><Run Text="I/"/><Run Text=" "/><Run Text="and "/><Run Text="reboot to the bootloader (must be unlocked) and click &quot;Next&quot;"/></TextBlock>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,65" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Next" Margin="10,0,12,65" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,10" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Back" Margin="10,0,12,10" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" VerticalAlignment="Bottom"/>
+        <Button Content="Button" Margin="10,0,11,10" Opacity="0" Click="Button_Click" Height="50" VerticalAlignment="Bottom"/>
+        <Button Content="Button" Margin="10,0,12,65" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_1"/>
     </Grid>
 </Window>

@@ -5,16 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="Unlock Bootloader" Height="266" Width="308" Background="#FFE4E4E4" ResizeMode="CanMinimize">
+        Title="Unlock Bootloader" Height="270" Width="308" Background="#FFE4E4E4" ResizeMode="CanMinimize" MinWidth="308" MinHeight="270">
     <Grid>
-        <Label Content="Unlock Bootloader" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" Foreground="Black" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="270" Foreground="Black" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Please enable OEM Unlocking, and enable USB Debugging and press Unlock."/><LineBreak/><Run Text="NOTE: Your data will be erased"/></TextBlock>
-        <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Left" Height="50" Margin="10,110,0,0" Stroke="#FF0080FF" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Unlock" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="270" Height="50" Opacity="0" Click="Button_Click_5"/>
-        <Rectangle Fill="#FFC1C1C1" HorizontalAlignment="Left" Height="50" Margin="10,165,0,0" Stroke="#FF0080FF" VerticalAlignment="Top" Width="271" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="Back" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="270" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,165,0,0" Width="270" Opacity="0" Click="Button_Click" Height="50" VerticalAlignment="Top"/>
-
+        <Label Content="Unlock Bootloader" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light"><Run Text="Please enable OEM Unlocking, and enable USB Debugging and press Unlock."/><LineBreak/><Run Text="NOTE: Your data will be erased"/></TextBlock>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,67" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Unlock" Margin="10,0,12,67" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Button" Margin="10,0,12,67" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_5"/>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,12" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
+        <Label Content="Back" Margin="10,0,12,12" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Light" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Button" Margin="10,0,12,12" Opacity="0" Click="Button_Click" Height="50" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
