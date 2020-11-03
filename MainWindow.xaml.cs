@@ -108,7 +108,7 @@ namespace TrebleToolkitReloaded
 
         private void Button_Click_10(object sender, RoutedEventArgs e)
         {
-            const string strCmdText = "/C cd .. & cd FreeCMD & start FreeCMD.exe";
+            const string strCmdText = "/C cd .. & cd assets & start FreeCMD.exe";
             Process.Start("CMD.exe", strCmdText);
         }
     }

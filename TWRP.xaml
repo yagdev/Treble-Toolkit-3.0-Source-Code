@@ -5,18 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkitReloaded"
         mc:Ignorable="d"
-        Title="Flash/Boot TWRP" Height="320" Width="308" Background="#FFE4E4E4" ResizeMode="CanMinimize" MinWidth="308" MinHeight="320">
+        Title="Flash/Boot TWRP" Height="320" Width="308" Background="#FFE4E4E4" MinWidth="308" MinHeight="320">
     <Grid>
-        <Label Content="Flash/Boot TWRP" Margin="10,10,12,0" VerticalAlignment="Top" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" Foreground="#FF000000" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <TextBlock Margin="10,60,12,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Foreground="#FF000000" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift"><Run Text="Please place your TWRP image in "/><LineBreak/><Run Text="Place_Files_Here/TWRP and select Flash or Boot (depending on your intention"/><Run Text=")"/></TextBlock>
-        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,122" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="FLASH" Margin="10,0,12,122" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Content="Button" Margin="10,0,10,122" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_5"/>
-        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,67" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="BOOT" Margin="10,0,12,67" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,11,12" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5"/>
-        <Label Content="BACK" Margin="10,0,12,12" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift" FontSize="20" Foreground="#FF000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Content="Button" Margin="10,0,10,67" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
-        <Button Content="Button" Margin="10,0,10,12" Opacity="0" Click="Button_Click_1" Height="50" VerticalAlignment="Bottom"/>
+        <Label Content="Flash/Boot TWRP" Margin="10,10,10,0" VerticalAlignment="Top" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Semibold" Foreground="Black" FontSize="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Foreground="Black" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift"><Run Text="Please place your TWRP image in "/><LineBreak/><Run Text="Place_Files_Here/TWRP and select Flash or Boot (depending on your intention"/><Run Text=")"/></TextBlock>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,120" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5" StrokeThickness="2"/>
+        <Label Content="FLASH" Margin="10,0,10,120" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Semibold" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Button" Margin="10,0,10,120" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click_5"/>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,65" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5" StrokeThickness="2"/>
+        <Label Content="BOOT" Margin="10,0,10,65" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Semibold" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Rectangle Fill="#FFC1C1C1" Height="50" Margin="10,0,9,10" Stroke="#FF0080FF" VerticalAlignment="Bottom" RadiusY="3.5" RadiusX="3.5" StrokeThickness="2"/>
+        <Label Content="BACK" Margin="10,0,10,10" VerticalAlignment="Bottom" Height="50" FontFamily="/Treble Toolkit;component/Fonts/#Bahnschrift Semibold" FontSize="20" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="Button" Margin="10,0,10,65" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
+        <Button Content="Button" Margin="10,0,10,10" Opacity="0" Click="Button_Click_1" Height="50" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
