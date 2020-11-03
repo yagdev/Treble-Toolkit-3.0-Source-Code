@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="Treble Toolkit - Welcome" Height="550" Width="900" MinWidth="900" MinHeight="550" Background="#FF191919">
     <Grid>
-        <Label Content="3.2.1" Margin="0,0,0,10" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center" FontSize="30" Foreground="White" FontFamily="/TrebleToolkitLauncher;component/fonts/#Bahnschrift" Height="50" VerticalAlignment="Bottom"/>
-        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,0,0,10" Stroke="Red" VerticalAlignment="Bottom" Width="50" RadiusY="4.5" RadiusX="4.5"/>
+        <Label Content="3.3" Margin="0,0,0,10" HorizontalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center" FontSize="30" Foreground="White" FontFamily="/TrebleToolkitLauncher;component/fonts/#Bahnschrift" Height="50" VerticalAlignment="Bottom"/>
+        <Rectangle Fill="#FF343434" HorizontalAlignment="Left" Height="50" Margin="10,0,0,10" Stroke="Red" VerticalAlignment="Bottom" Width="50" RadiusY="4.5" RadiusX="4.5" StrokeThickness="2"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Margin="10,0,0,10" Width="50" Height="50" VerticalAlignment="Bottom">
             <Image Margin="9" Source="closeicon.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="50" Height="50" Opacity="0" Click="Button_Click_1"/>
-        <Rectangle Fill="#FF343434" Margin="150,247,140,214" Stroke="Red" RadiusY="4.5" RadiusX="4.5" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="592"/>
+        <Rectangle Fill="#FF343434" Margin="150,247,140,214" Stroke="Red" RadiusY="4.5" RadiusX="4.5" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="592" StrokeThickness="2"/>
         <Label Content="START TREBLE TOOLKIT" Margin="150,247,140,214" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26" FontFamily="/TrebleToolkitLauncher;component/fonts/#Bahnschrift" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Welcome to Treble Toolkit!" Margin="0,50,0,0" VerticalAlignment="Top" Height="100" Foreground="White" FontFamily="/TrebleToolkitLauncher;component/fonts/#Bahnschrift" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Welcome to Treble Toolkit!" Margin="0,50,0,0" VerticalAlignment="Top" Height="100" Foreground="White" FontFamily="/TrebleToolkitLauncher;component/fonts/#Bahnschrift Semibold" FontSize="48" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Margin="155,252,145,219" Opacity="0" Click="Button_Click_2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="48" Width="592"/>
     </Grid>
 </Window>
